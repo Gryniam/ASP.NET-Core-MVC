@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Study\\Forum\\Forum\\Forum.csproj": {}
+    "C:\\Study\\Forum\\ASP.NET-Core-MVC\\Forum\\Forum.csproj": {}
   },
   "projects": {
-    "C:\\Study\\Forum\\Forum\\Forum.csproj": {
+    "C:\\Study\\Forum\\ASP.NET-Core-MVC\\Forum\\Forum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Study\\Forum\\Forum\\Forum.csproj",
+        "projectUniqueName": "C:\\Study\\Forum\\ASP.NET-Core-MVC\\Forum\\Forum.csproj",
         "projectName": "Forum",
-        "projectPath": "C:\\Study\\Forum\\Forum\\Forum.csproj",
+        "projectPath": "C:\\Study\\Forum\\ASP.NET-Core-MVC\\Forum\\Forum.csproj",
         "packagesPath": "C:\\Users\\Grynia\\.nuget\\packages\\",
-        "outputPath": "C:\\Study\\Forum\\Forum\\obj\\",
+        "outputPath": "C:\\Study\\Forum\\ASP.NET-Core-MVC\\Forum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Grynia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,35 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNet.Mvc": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.2.9, )"
+              "version": "[3.1.27, )"
             },
             "Microsoft.AspNetCore.StaticFiles": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.27, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.27, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
