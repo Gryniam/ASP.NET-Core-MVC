@@ -18,12 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-    <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Domain\" />
     <Folder Include="Models\ViewComponents\" />
-    <Folder Include="Service\" />
+    <Folder Include="Data\Interfaces\" />
+    <Folder Include="Data\EFramework\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
 
