@@ -20,8 +20,6 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Models\ViewComponents\" />
-    <Folder Include="Data\Interfaces\" />
-    <Folder Include="Data\EFramework\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
 
