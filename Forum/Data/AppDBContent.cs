@@ -16,7 +16,7 @@ namespace Forum.Data
 
         public DbSet<User> Users {get;set;}
         public DbSet<TopicType> TopicTypes { get; set; }
-        public DbSet<Topic> Topic { get; set; }
+        public DbSet<Topic> Topics { get; set; }
         public DbSet<Status> Status { get; set; }
         public DbSet<Role> Role { get; set; }
         public DbSet<Comment> Comment { get; set; }
