@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace Forum.Models
 {
@@ -11,6 +12,7 @@ namespace Forum.Models
         public string Login { get; set; }
         public string Mail { get; set; }
         public string Password { get; set; }
+        
         public int RoleId { get; set; }
         public string AdditionalInf { get; set; }
         public bool IsBanned { get; set; }

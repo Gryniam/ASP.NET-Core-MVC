@@ -18,8 +18,7 @@ namespace Forum
     {
         private IConfigurationRoot _configString;
 
-        
-
+        [Obsolete]
         public Startup(Microsoft.AspNetCore.Hosting.IHostingEnvironment hostEnv)
         {
             _configString = new ConfigurationBuilder().SetBasePath(hostEnv.ContentRootPath).AddJsonFile("dbsettings.json").Build();

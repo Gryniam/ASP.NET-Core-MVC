@@ -8,6 +8,6 @@ namespace Forum.Models
     public class Status
     {
         public int Id { get; set; }
-        public string status { get; set; }
+        public bool status { get; set; }
     }
 }

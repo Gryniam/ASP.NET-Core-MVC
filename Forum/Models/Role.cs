@@ -8,7 +8,7 @@ namespace Forum.Models
 {
     public class Role
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         [Display(Name = "Role")]
         public string RoleString { get; set; }

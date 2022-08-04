@@ -12,7 +12,7 @@ namespace Forum.Data.EFramework
     { 
         private readonly AppDBContent context;
 
-        public EFUser(AppDBContent contex)
+        public EFUser(AppDBContent context)
         {
             this.context = context;
         }

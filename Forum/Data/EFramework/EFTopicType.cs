@@ -39,12 +39,9 @@ namespace Forum.Data.EFramework
 
         public void removeType(int id)
         {
-            foreach(var iterator in context.Topics)
+            foreach(var iterator in context.Topics.Where(x=>x.TopicTypeId == id))
             {
-                if(iterator.TopicTypeId == id)
-                {
-                    iterator.TopicTypeId = topicTypes.FirstOrDefault(x => x.Type == "undefinded").Id;
-                }
+                 iterator.TopicTypeId = topicTypes.FirstOrDefault(x => x.Type == "undefinded").Id;
             }
             context.TopicTypes.Remove(new TopicType() { Id = id });
             context.SaveChanges();
