@@ -37,7 +37,7 @@ namespace Forum.Data.EFramework
 
         public void removeTopic(Guid id)
         {
-           foreach(var answer in context.Answer.Where(x=> x.TopicId == id))
+           foreach(var answer in context.Answers.Where(x=> x.TopicId == id))
            {
                 context.Entry(answer).State = EntityState.Deleted;
            }

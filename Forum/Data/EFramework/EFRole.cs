@@ -32,7 +32,7 @@ namespace Forum.Data.EFramework
 
         public Role getRole(int id)
         {
-            Role role = context.Role.FirstOrDefault(x => x.Id == id);
+            Role role = context.Roles.FirstOrDefault(x => x.Id == id);
             if(role == default)
             {
                 return null;
@@ -49,7 +49,7 @@ namespace Forum.Data.EFramework
             {
                 user.RoleId = Constants.role.Id;
             }
-            context.Role.Remove(new Role() { Id = id });
+            context.Roles.Remove(new Role() { Id = id });
             context.SaveChanges();
         }
     }

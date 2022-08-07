@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Forum.Data.Interfaces;
+using Forum.Static;
 using Forum.Models;
 
 namespace Forum.Data.EFramework
@@ -41,7 +42,7 @@ namespace Forum.Data.EFramework
         {
             foreach(var iterator in context.Topics.Where(x=>x.TopicTypeId == id))
             {
-                 iterator.TopicTypeId = topicTypes.FirstOrDefault(x => x.Type == "undefinded").Id;
+                 iterator.TopicTypeId = Constants.topicType.Id;
             }
             context.TopicTypes.Remove(new TopicType() { Id = id });
             context.SaveChanges();

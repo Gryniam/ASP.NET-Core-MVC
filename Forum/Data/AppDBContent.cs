@@ -18,11 +18,11 @@ namespace Forum.Data
         public DbSet<TopicType> TopicTypes { get; set; }
         public DbSet<Topic> Topics { get; set; }
         public DbSet<Status> Status { get; set; }
-        public DbSet<Role> Role { get; set; }
-        public DbSet<Comment> Comment { get; set; }
-        public DbSet<Category> Category { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<Category> Categories { get; set; }
         public DbSet<BanStatus> BanStatus { get; set; }
-        public DbSet<Answer> Answer { get; set; }
+        public DbSet<Answer> Answers { get; set; }
 
     }
 }

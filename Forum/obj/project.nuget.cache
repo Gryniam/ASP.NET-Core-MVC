@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b/5N9KkkOEKf0sV/y9T7phmB/KwBleIXpq5g/IbPpaE7KnAXmcDMkaXSTm3kY/VPDuXCMKoDE9stknXXetRx7w==",
+  "dgSpecHash": "svNZOIu5OhMzwcuLylTXty64tGiZ9F3V9XM293JMDmMyRDs7vWpciWOdcjSWIu4mFyBkOMUvkALxpdh63MAH5Q==",
   "success": true,
   "projectFilePath": "C:\\Study\\Forum\\ASP.NET-Core-MVC\\Forum\\Forum.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\Grynia\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.27\\microsoft.entityframeworkcore.design.3.1.27.nupkg.sha512",
     "C:\\Users\\Grynia\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.27\\microsoft.entityframeworkcore.relational.3.1.27.nupkg.sha512",
     "C:\\Users\\Grynia\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.27\\microsoft.entityframeworkcore.sqlserver.3.1.27.nupkg.sha512",
+    "C:\\Users\\Grynia\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.27\\microsoft.entityframeworkcore.tools.3.1.27.nupkg.sha512",
     "C:\\Users\\Grynia\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.27\\microsoft.extensions.caching.abstractions.3.1.27.nupkg.sha512",
     "C:\\Users\\Grynia\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.27\\microsoft.extensions.caching.memory.3.1.27.nupkg.sha512",
     "C:\\Users\\Grynia\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.27\\microsoft.extensions.configuration.3.1.27.nupkg.sha512",
