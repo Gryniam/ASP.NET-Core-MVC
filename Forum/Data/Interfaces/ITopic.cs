@@ -6,7 +6,7 @@ using Forum.Models;
 
 namespace Forum.Data.Interfaces
 {
-    interface ITopic
+    public interface ITopic
     {
         IEnumerable<Topic> topics { get; }
 

@@ -6,7 +6,7 @@ using Forum.Models;
 
 namespace Forum.Data.Interfaces
 {
-    interface ICategory
+    public interface ICategory
     {
         IEnumerable<Category> categories { get; }
 

@@ -6,7 +6,7 @@ using Forum.Models;
 
 namespace Forum.Data.Interfaces
 {
-    interface IComment
+    public interface IComment
     {
         IEnumerable<Comment> comments(Guid id);
 

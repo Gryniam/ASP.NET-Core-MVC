@@ -6,7 +6,7 @@ using Forum.Models;
 
 namespace Forum.Data.Interfaces
 {
-    interface IStatus
+    public interface IStatus
     {
         Status getStatus(int id);
         void addStatus(Status status);

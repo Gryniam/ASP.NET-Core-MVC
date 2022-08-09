@@ -6,7 +6,7 @@ using Forum.Models;
 
 namespace Forum.Data.Interfaces
 {
-    interface IBanStatus
+    public interface IBanStatus
     {
         IEnumerable<BanStatus> banStatuses { get; }
 

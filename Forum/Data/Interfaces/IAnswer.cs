@@ -6,7 +6,7 @@ using Forum.Models;
 
 namespace Forum.Data.Interfaces
 {
-    interface IAnswer
+    public interface IAnswer
     {
         IQueryable<Answer> getAnswersFromTopic(Guid id);
 

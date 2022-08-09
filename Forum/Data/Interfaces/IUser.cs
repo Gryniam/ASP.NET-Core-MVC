@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Forum.Data.Interfaces
 {
-    interface IUser
+    public interface IUser
     {
         IEnumerable<User> users { get; }
         User GetUser(Guid id);

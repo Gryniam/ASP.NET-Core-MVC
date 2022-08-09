@@ -6,7 +6,7 @@ using Forum.Models;
 
 namespace Forum.Data.Interfaces
 {
-    interface IRole
+    public interface IRole
     {
         Role getRole(int id);
         void addRole(Role role);

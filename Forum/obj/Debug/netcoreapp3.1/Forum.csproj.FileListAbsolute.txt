@@ -160,3 +160,16 @@ C:\Study\Forum\ASP.NET-Core-MVC\Forum\bin\Debug\netcoreapp3.1\runtimes\unix\lib\
 C:\Study\Forum\ASP.NET-Core-MVC\Forum\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Study\Forum\ASP.NET-Core-MVC\Forum\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Study\Forum\ASP.NET-Core-MVC\Forum\obj\Debug\netcoreapp3.1\Forum.csproj.CopyComplete
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\bin\Debug\netcoreapp3.1\Forum.Views.dll
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\bin\Debug\netcoreapp3.1\Forum.Views.pdb
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\obj\Debug\netcoreapp3.1\Forum.RazorAssemblyInfo.cache
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\obj\Debug\netcoreapp3.1\Forum.RazorAssemblyInfo.cs
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\obj\Debug\netcoreapp3.1\Forum.TagHelpers.input.cache
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\obj\Debug\netcoreapp3.1\Forum.TagHelpers.output.cache
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\obj\Debug\netcoreapp3.1\Forum.RazorCoreGenerate.cache
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\obj\Debug\netcoreapp3.1\Razor\Views\Home\HomePage.cshtml.g.cs
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\obj\Debug\netcoreapp3.1\Forum.RazorTargetAssemblyInfo.cs
+C:\Study\Forum\ASP.NET-Core-MVC\Forum\obj\Debug\netcoreapp3.1\Forum.Views.pdb
