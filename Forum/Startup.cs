@@ -42,7 +42,13 @@ namespace Forum
             services.AddTransient<IBanStatus, EFBanStatus>();
             services.AddTransient<IAnswer, EFAnswer>();
 
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            //services.AddScoped(sp=> )
+
+
             services.AddMvc();
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -53,6 +59,7 @@ namespace Forum
             }
             // app.UseMvc();
             app.UseStaticFiles();
+            app.UseSession();
             app.UseRouting();
             app.UseCookiePolicy();
 
